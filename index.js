@@ -6,6 +6,7 @@ const url = require('url');
 const gitInPath = require('simple-git');
 const isGitUrl = require('is-git-url');
 const semver = require('semver');
+const elmJson = require('elm-json');
 
 const gitRoot = gitInPath(); // git client for current working directory
 const storagePath = path.join('elm-stuff', 'gitdeps');

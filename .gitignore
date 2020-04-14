@@ -13,3 +13,5 @@ elm-stuff/
 
 # OS Stuff
 .DS_Store
+
+.idea
